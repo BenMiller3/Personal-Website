@@ -1,0 +1,20 @@
+.jumbotron p{
+	color: red;
+
+}
+
+.jumbotron{
+	background-image:url('img/back.png');	
+}
+
+.nav{
+	background-image: url('img/sandpaper.png');
+}
+
+.nav p{
+	display: inline;
+}
+
+.points{
+	
+}
