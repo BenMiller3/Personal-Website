@@ -1,10 +1,15 @@
 .jumbotron p{
-	color: red;
-
+	padding: 2%;
 }
 
 .jumbotron{
-	background-image:url('img/back.png');	
+	font-family: 'Shift', sans-serif;
+	background-image:url('img/backing.png');
+	text-align: center !important;
+}
+
+.jumbotron img{
+	display: inline;
 }
 
 .nav{
@@ -12,9 +17,48 @@
 }
 
 .nav p{
+	font-weight: bold;
+	padding: 7.5%;
+	font-size: 20px;
 	display: inline;
 }
 
-.points{
-	
+.nav a{
+	text-decoration: none !important;
+	color: black;
 }
+
+.purpose{
+	text-align: center !important;
+}
+
+.hitme{
+	background-image:url('img/backing.png');
+}
+
+.hitme{
+	font-size: 10px;
+}
+
+.hitme h1{
+	text-align: center !important;
+}
+
+.points img{
+	float:right;
+}
+.projects img{
+	float:right;
+}
+
+.social img{
+	padding-top: 4%;
+	padding-right: 11%;
+	padding-left: 11%;
+	display:inline;
+}
+
+body{
+	background-image: url('img/splash.png');
+}
+
