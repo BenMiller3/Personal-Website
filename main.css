@@ -37,7 +37,7 @@
 }
 
 .hitme{
-	font-size: 10px;
+	font-size: 30px;
 }
 
 .hitme h1{
@@ -47,8 +47,27 @@
 .points img{
 	float:right;
 }
-.projects img{
+.projectsEven img{
 	float:right;
+}
+
+.projectsEven{
+	font-size: 20px;
+	text-align: center !important;
+}
+
+.projectsOdd{
+	font-size: 20px;
+	text-align: center !important;
+}
+.projectsOdd img{
+	position: relative;
+	float:left;
+	display: inline;
+}
+
+.bioPoints img{
+	float:left;
 }
 
 .social img{
@@ -58,7 +77,13 @@
 	display:inline;
 }
 
+.points{ position: relative }
+.element{ width: 33%; float: left }
+
+.centerIt{
+	text-align: center !important;
+}
+
 body{
 	background-image: url('img/splash.png');
 }
-
