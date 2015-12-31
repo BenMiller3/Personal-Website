@@ -1,3 +1,6 @@
+// Full credit to Mozilla for this: https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript/
+// Used as a test and will be here temporarily
+
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
