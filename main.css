@@ -66,10 +66,6 @@
 	display: inline;
 }
 
-.bioPoints img{
-	float:left;
-}
-
 .social img{
 	padding-top: 4%;
 	padding-right: 11%;
@@ -84,6 +80,21 @@
 	text-align: center !important;
 }
 
+.biog img{
+	float:left;
+	padding-right:4%;
+}
+
+.biog {
+	font-size: 23px;
+	background-image:url('img/backing.png');
+}
+
+.gamesf{
+	font-size: 25px;
+}
+
 body{
 	background-image: url('img/splash.png');
 }
+
