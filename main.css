@@ -1,94 +1,80 @@
+// Beginning of the screen formatting 
 .jumbotron p{
-	padding: 2%;
-}
+	padding: 2%;}
 
+// Centers the text and gives the main intro a soft backing
 .jumbotron{
 	font-family: 'Shift', sans-serif;
 	background-image:url('img/backing.png');
-	text-align: center !important;
-}
+	text-align: center !important;}
 
+// Centers the images and keeps them together
 .jumbotron img{
-	display: inline;
-}
+	display: inline;}
 
+// Separate backing colour for the navigation bar
 .nav{
-	background-image: url('img/sandpaper.png');
-}
-
+	background-image: url('img/sandpaper.png');}
+// Separates the different tabs evenly
 .nav p{
 	font-weight: bold;
 	padding: 7.5%;
 	font-size: 20px;
-	display: inline;
-}
+	display: inline;}
 
+// Removes the hyperlink discolouring from the navigation bar
 .nav a{
 	text-decoration: none !important;
-	color: black;
-}
+	color: black;}
 
 .purpose{
-	text-align: center !important;
-}
-
+	text-align: center !important;}
+	
 .hitme{
 	background-image:url('img/backing.png');
-}
-
-.hitme{
-	font-size: 30px;
-}
+	font-size: 30px;}
 
 .hitme h1{
-	text-align: center !important;
-}
+	text-align: center !important;}
 
 .points img{
-	float:right;
-}
+	float:right;}
+	
 .projectsEven img{
-	float:right;
-}
+	float:right;}
 
 .projectsEven{
 	font-size: 20px;
-	text-align: center !important;
-}
+	text-align: center !important;}
 
 .projectsOdd{
 	font-size: 20px;
-	text-align: center !important;
-}
+	text-align: center !important;}
+	
 .projectsOdd img{
 	position: relative;
 	float:left;
-	display: inline;
-}
+	display: inline;}
 
 .social img{
 	padding-top: 4%;
 	padding-right: 11%;
 	padding-left: 11%;
-	display:inline;
-}
+	display:inline;}
 
 .points{ position: relative }
 .element{ width: 33%; float: left }
 
 .centerIt{
-	text-align: center !important;
-}
+	text-align: center !important;}
 
 .biog img{
 	float:left;
-	padding-right:4%;
-}
+	padding-right:4%;}
 
 .biog {
 	font-size: 23px;
-	background-image:url('img/backing.png');
-}
+	background-image:url('img/backing.png');}
 
 .gamesf{
 	font-size: 25px;
@@ -96,9 +82,7 @@
 
 .gamesf a{
 	text-decoration: none !important;
-	color: black;
-}
+	color: black;}
 
 body{
-	background-image: url('img/splash.png');
-}
+	background-image: url('img/splash.png');}
