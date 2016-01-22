@@ -1,2 +1,6 @@
 # Personal-Website
-Personal website - benjaminmiller.co created with HTML and CSS and Java Script
+
+Live at: www.benjaminmiller.co 
+
+Created with HTML, CSS and Java Script.
+Twitter Bootstrap CSS library also used for some elements.
