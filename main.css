@@ -1,12 +1,39 @@
-// Beginning of the screen formatting 
+// Text display in the main
 .jumbotron p{
-	padding: 2%;}
-
-// Centers the text and gives the main intro a soft backing
-.jumbotron{
-	font-family: 'Shift', sans-serif;
 	background-image:url('img/backing.png');
-	text-align: center !important;}
+	padding: 2%;
+	font-size: 18px;
+	display: block;
+}
+
+.jumbotron h1{
+	background-image:url('img/backing.png');
+	display: block;
+}
+
+.titler h1{
+	background-image:url('img/backing.png');
+	font-family: 'Shift', sans-serif;
+	text-align: center !important;
+}
+.intro p{
+	font-family: 'Shift', sans-serif;
+	text-align: center !important;
+	background-image:url('img/backing.png');
+}
+
+.jumbotron{
+
+	font-family: 'Shift', sans-serif;
+	text-align: center !important;
+	background-image:url('img/dots2.gif');
+	margin-right: 150px;
+    margin-left: 150px;
+}
+
+.blankSpace{
+	background-image:url('img/backing.png');
+}
 
 // Centers the images and keeps them together
 .jumbotron img{
@@ -83,6 +110,54 @@
 .gamesf a{
 	text-decoration: none !important;
 	color: black;}
+/* Contact Form Styling */
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+/* End of contact form styling */
 
 // To create margins centering the content
 .formattings {
