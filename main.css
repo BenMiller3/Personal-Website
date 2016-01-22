@@ -84,5 +84,13 @@
 	text-decoration: none !important;
 	color: black;}
 
+// To create margins centering the content
+.formattings {
+	 margin-top: 15px;
+     margin-bottom: 100px;
+     margin-right: 150px;
+     margin-left: 80px;
+}
+
 body{
 	background-image: url('img/splash.png');}
