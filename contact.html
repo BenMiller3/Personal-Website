@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href="main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -27,22 +28,43 @@
 	<p><a href="contact.html">Contact</a></p>
 	</div>
   <div class="hitme">
+  <div class="formattings">
     <h1>How to Reach Me:</h1>
-	
-	<ul>
-		<li>Email: benjaminmiller229@gmail.com</li>
-		<li>GitHub: gitHub.com/benMiller3</li>
-		<li>LinkedIn: linkedin.ca/benjaminMiller4</li>
-		<li>Website: benjaminmiller.co</li>
-		<li>School Email: millebd@mcmaster.ca</li>
-		<li>Phone: +1-519-865-4255</li>
-	</ul>
+	<div class="centerIt">
+	<p>Email: benjaminmiller229@gmail.com</p>
 	</div>
+	</div>
+	</div>
+	
+	<!-- Contact Form -->
+	<div id="page-wrap">
 
-	<div class = "social">
-	<a href="https://github.com/BenMiller3"><img src="img/github.png"></a>
-	<a href="https://ca.linkedin.com/in/ben-miller-6283a3102"><img src="img/linkedin.png"></a>
-	<a href="https://twitter.com/BenMiller03"><img src="img/twitter.png"></a>
+		<h1>Contact Me</h1>
+
+		<div id="contact-area">
+			
+			<form method="post" action="contactengine.php">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+			</form>
+			
+			<div style="clear: both;"></div>
+		</div>
+	<!-- End of Contact Form -->
+	
+	</div>
+	<div class="social">
+	<a href="https://github.com/BenMiller3"><h2>Git Hub</h2><img src="img/github.png"></a>
+	<a href="https://ca.linkedin.com/in/ben-miller-6283a3102"><h2>LinkedIn</h2><img src="img/linkedin.png"></a>
+	<a href="https://twitter.com/BenMiller03"><h2>Twitter</h2><img src="img/twitter.png"></a>
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
