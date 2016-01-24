@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,6 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Projects</title>
+	<script src="scripts/aslider.js"></script>
+        <style>
+            .aslide {
+                display: none;
+				float: left;
+            }
+            .aslide img {
+                max-width: 100%; 
+				max-height: 270px;
+				float: left;
+            }
+            .aslider {
+                width: 500px;
+                height: 270px;
+				margin: auto;
+				width: 60%;
+				padding: 10px;
+				float:left;
+            }
+            .aslide .text {
+                margin: 0 auto;
+                color: #f8f8f8;
+                text-shadow: 0 0 2px #000;
+                font-weight: bold;
+                font-size: 36px;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 30px;
+                font-family: sans-serif;
+				float:left;
+            }
+        </style>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +52,7 @@
     <![endif]-->
   </head>
   <body>
+  
   <div class="nav">
 	<p><a href="index.html">Home</a></p>
 	<p><a href="bio.html">Bio</a></p>
@@ -26,19 +60,75 @@
 	<p><a href="games.html">Games</a></p>
 	<p><a href="contact.html">Contact</a></p>
 	</div>
-	<div class="jumbotron">
+	<div class="centerIt">
     <h1>Personal Projects</h1>
 	<p>All my projects from hackathons to personal things for your enjoyment</p>
 	</div>
+	<div class ="formattings">
+	<a href="http://devpost.com/software/flood-watch">
+	<div class="aslider" data-hide-mute>
+    <div class="aslide" data-duration="5">
+        <img src="projs/proj6.1.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.2.png" />
+    </div>
+	<div class="aslide" data-duration="2">
+        <img src="projs/6.3.png" />
+    </div>
+	<div class="aslide" data-duration="2">
+        <img src="projs/6.4.png" />
+    </div>
+	<div class="aslide" data-duration="2">
+        <img src="projs/6.5.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.6.png" />
+    </div>
+	<div class="aslide" data-duration="5">
+        <img src="projs/6.7.png" />
+    </div>
+	<div class="aslide" data-duration="5">
+        <img src="projs/6.8.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.9.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.10.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.11.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.12.png" />
+    </div>
+	<div class="aslide" data-duration="3">
+        <img src="projs/6.13.png" />
+    </div>
+	</div>
+	</a>
+	<div class="projectsOdd">
+	<h2>Flood Watch</h2>
+	<h3>January, 2016</h3>
+	<p>A real time dynamic radio sensor array, created to track water levels in flood prone areas and save lives<br/>
+	Created using Python and associative libraries<br/>
+	Loved creating this in helsinki finland<br/>
+	jokes but yolks haha</br>
+	For more information on Flood Watch click <a href="http://devpost.com/software/flood-watch">here</a><br/>
+	</p>
+	</div>
+	<hr>
 	<div class="projectsEven">
 	<img src="img/web.png">
 	<h2>Personal Website</h2>
 	<h3>January, 2016</h3>
-	<p>This was a BIG XL project<br/>
-	Created using Python and associative libraries<br/>
-	Loved creating this in helsinki finland<br/>
+	<p>My personal website created with HTML5, CSS3, and JavaScript<br/>
+	Useful for demoeing projects and sharing them easily with friends<br/>
+	Was completed on my own spare time on top of school work and jobs<br/>
 	jokes but yolks haha</br>
-	Is thi senough lines? srs</p>
+	To see the source code of my website click <a href="https://github.com/BenMiller3/Personal-Website">here</a>
+	</p>
 	</div>
 	<hr>
 	<div class="projectsOdd">
@@ -49,7 +139,7 @@
 	Created using Python and associative libraries<br/>
 	Loved creating this in helsinki finland<br/>
 	jokes but yolks haha</br>
-	Is thi senough lines? srs</p>
+	For more information on Brain Gainz click <a href="http://devpost.com/software/brain-gainz">here</a></p>
 	</div>
 	<hr>
 	<div class="projectsEven">
@@ -60,7 +150,7 @@
 	Created using Python and associative libraries<br/>
 	Loved creating this in helsinki finland<br/>
 	jokes but yolks haha</br>
-	Is thi senough lines? srs</p>
+	For more information on Balliver's Travels click <a href="http://devpost.com/software/balliver-s-travels">here</a></p>
 	</div>
 	<hr>
 	<div class="projectsOdd">
@@ -71,20 +161,27 @@
 	Created using Python and associative libraries<br/>
 	Loved creating this in helsinki finland<br/>
 	jokes but yolks haha</br>
-	Is thi senough lines? srs</p>
+	To see the source code for Pong World Tour click <a href="https://github.com/BenMiller3/Pong_World_Tour">here</a></p>
 	</div>
 	<hr>
 	<div class="projectsEven">
-	<img src="img/racers.png">
+	<div class="boe">
+	<video width="500" height="290" controls loop autoplay muted float:right>
+	<source src="mov.mp4" type="video/mp4" autoplay>
+	<source src="mov.ogg" type="video/ogg" autoplay>
+	</div>
 	<h2>Turtle Racers</h2>
 	<h3>December, 2014</h3>
-	<p>This was a BIG XL project<br/>
-	Created using Python and associative libraries<br/>
-	Loved creating this in helsinki finland<br/>
-	jokes but yolks haha</br>
-	Is thi senough lines? srs</p>
+	<p>Fun, betting/simulation game<br/>
+	Written with Python and the Pygame library<br/>
+	Feautures multiple racers, racing simutaneously<br/>
+	Written to settle a dispute between friends</br>
+	To see the source code for Turtle Racers click <a href="https://github.com/BenMiller3/Turtle-Racers">here</a></p>
+	<br/><br/>
 	</div>
 	<hr>
+	</div>
+
 	<div class = "social">
 	<a href="https://github.com/BenMiller3"><img src="img/github.png"></a>
 	<a href="https://ca.linkedin.com/in/ben-miller-6283a3102"><img src="img/linkedin.png"></a>
